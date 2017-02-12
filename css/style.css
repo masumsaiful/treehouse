@@ -1,0 +1,238 @@
+
+/***Header***/
+
+#header{
+	padding: 45px 0px;
+}
+.logo ul{
+	
+    list-style: none;
+}
+
+.logo ul li{
+	float: left;
+    position: relative;
+}
+.logo ul li > img{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.logo-text{
+	display: block;
+    padding-top: 8px;
+    margin-left: 33px;}
+.logo-text ul{
+	list-style: none;
+}
+.logo-text ul li a img {}
+
+
+.nav{
+	padding-left: 55px !important;
+    margin-bottom: 0;
+    list-style: none;
+}
+.nav-pills > li > a {
+    border-radius: 4px;     
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+    color:#555555   !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+/***Header***/
+/***title***/
+               /***background***/
+.background img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+}
+
+#title{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(10, 10, 10, 0.65);
+}
+                  /*** background***/
+                 /***text***/
+             
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text h1{
+	    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+}
+.text h2{
+	color: white;
+	   text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 100px;
+    line-height: 0.7;
+}
+.text p{
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+.text span{
+	    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding-left: 90px;
+    line-height: 3;
+}
+.text p a{
+	color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: 0px solid #7CC576;
+    padding: 25px 48px;
+    border-radius: 44px;
+    background: #7CC576;
+}
+                  /***text***/
+/***title***/
+
+/***service***/
+                 /**service-text**/
+.service-text{
+	    text-align: center;
+	    margin-top: 95px;
+	    margin-bottom: 70px;
+}
+.service-text h2{
+	font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #0c0c0c;
+}
+.service-text span{
+	font-size: 20px;
+	 font-family: 'Roboto Slab', serif;
+	 color: rgba(0, 0, 0, 0.66);
+}
+
+                 /**service-text**/
+                 /**service-column**/
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px !important;
+}
+.text-center {
+    text-align: center;
+    text-transform: uppercase !important;
+    font-size: 18px; !important;
+    color: #0c0c0c !important;
+    font-weight: bold !important;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 14px !important;
+}
+                 /**service-column**/
+
+/***service***/
+
+/***just-relax***/
+#just-relax{
+    margin-top: 100px;
+    position: relative;
+}
+.image-size{
+   position: absolute;
+    top: 18%;
+    left: 14%;
+}
+.image-size img{}
+.background-color{
+   background: #E9E9E9;
+    height: 571px;
+    width: 100%;
+}
+
+.relax-check{}
+.relax-check ul{
+        list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.relax-check ul li {
+   
+    position: relative;
+    display: table;
+    margin-bottom: 15px;
+}
+.relax-check ul li > img{
+   position: absolute;
+    top: 31%;
+    left: 5%;
+}
+.relax-check ul li a{
+   text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.relax-check ul li span{
+        color: rgba(255, 255, 255, 0.57);
+    text-transform: capitalize;
+    padding-left: 6px;
+}
+.text-relax{}
+.text-relax h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.6;
+    margin-bottom: 29px;
+}
+.text-relax h2 span{
+    color: #47ad3f;
+}
+.text-relax p{
+      color: rgba(255, 255, 255, 0.57);
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px !important;
+    width: 68%;
+}
+.relax-button p{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 0px solid #7CC576;
+    padding: 20px 35px;
+    border-radius: 44px;
+    background: #7CC576;
+}
+.relax-button p a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.relax-button{
+    margin-top: 45px;
+}
+/***just-relax***/
